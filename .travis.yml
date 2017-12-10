@@ -8,7 +8,7 @@ php:
   # aliased to a recent 7.1.x version
   - '7.1'
   # aliased to a recent hhvm version
-  - hhvm
+  #- hhvm
   - nightly
 
 # This triggers builds to run on the new TravisCI infrastructure.
