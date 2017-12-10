@@ -26,10 +26,10 @@ matrix:
     - php: '7.0'
       env:
         - 'COMPOSER_FLAGS="--prefer-stable --prefer-lowest"'
-  allow_failures:
-    - php: 7.0
-    - php: 7.1
-    - php: hhvm
+
+# execute any number of scripts before the test run, custom env's are available as variables
+before_script:
+  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
 
 # omitting "script:" will default to phpunit
 script:
