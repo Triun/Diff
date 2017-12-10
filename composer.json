@@ -1,5 +1,6 @@
 {
     "name": "triun/diff",
+    "version": "1.0.0",
     "description": "Computing diffs and formatting the output.",
     "license": "MIT",
     "homepage": "https://github.com/Triun",
