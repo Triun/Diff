@@ -29,8 +29,8 @@
         }
     },
     "autoload-dev": {
-        "files": [
-            "tests/DiffTest.php"
+        "classmap": [
+            "tests/TestCase.php"
         ]
     },
     "extra": {
